@@ -1,10 +1,11 @@
-# DSSRNN: Decomposition-Enhanced State-Space Recurrent Neural Network for Time-Series Analysis
-This repository contains the implementation of the Decomposition State-Space Recurrent Neural Network (DSSRNN), a novel framework designed for accurate long-term and short-term forecasting in time-series analysis. DSSRNN innovatively integrates decomposition analysis with state-space models and physics-based equations, focusing on improving forecasting accuracy and computational efficiency, particularly in predicting indoor air quality levels.
+# PIAD-SRNN: Physics-Informed Adaptive Decomposition in State-Space RNN
+We propose **PIAD-SRNN**, a physics-informed, adaptive decomposition RNN for time series forecasting that separates seasonal and trend components while embedding domain equations. Tested on indoor air quality datasets for CO₂ prediction, PIAD-SRNN consistently outperforms transformer-based and state-of-the-art models in accuracy and efficiency across forecasting horizons. We also provide four curated datasets for reproducible research.
 
 
-![SSRNN Architecture](images/SSRNN.png "SSRNN Model Architecture")
 
-![DSSRNN Architecture](images/DSSRNN.png "DSSRNN Model Architecture")
+![Physics-Informed State-Space RNN (PI-SRNN)](images/SSRNN.png "SSRNN Model Architecture")
+
+![Physics-Informed Adaptive Decomposition State-Space Recurrent Neural Network (PIAD-SRNN)](images/DSSRNN.png "DSSRNN Model Architecture")
 
 ## Project Structure
 Below is the structure of this repository, detailing the primary components and their purpose:
